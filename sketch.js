@@ -34,7 +34,7 @@ function draw() {
 
     chooseKnot(whichKnot, beta);
     console.log("the current knot is ", whichKnot);
-    beta += 0.005;
+    beta += 0.01;
 
     //noFill();
     //stroke(255);
