@@ -13,7 +13,8 @@ var cordSize = 6;
 
 
 function setup() {
-    createCanvas(600, 600, WEBGL);
+    createCanvas(windowWidth, windowHeight, WEBGL);
+    //createCanvas(600, 600, WEBGL);
     whichKnot = int(random(17));
     rotation = TWO_PI;
     background(0);
