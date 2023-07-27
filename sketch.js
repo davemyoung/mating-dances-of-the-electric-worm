@@ -34,7 +34,7 @@ function draw() {
 
     chooseKnot(whichKnot, beta);
    
-    beta += 0.01;
+    beta += 0.0075;
 
     //noFill();
     //stroke(255);
