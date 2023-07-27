@@ -33,7 +33,7 @@ function draw() {
     if (beta < rotation) {
 
     chooseKnot(whichKnot, beta);
-    console.log("the current knot is ", whichKnot);
+    //console.log("the current knot is ", whichKnot);
     beta += 0.01;
 
     //noFill();
